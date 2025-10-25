@@ -320,7 +320,7 @@ func (v *RewriteVisitor) convertFieldToSlogAttr(funcName string, args []dst.Expr
 		slogAttrFunc = "Int64"
 		slogArgs = args
 	case "Uint64":
-		slogAttrFunc = "UInt64"
+		slogAttrFunc = "Uint64"
 		slogArgs = args
 	case "Uint", "Uint8", "Uint16", "Uint32":
 		slogAttrFunc = "Uint64"
