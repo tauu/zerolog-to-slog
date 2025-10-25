@@ -1,4 +1,5 @@
 # zerolog-to-slog converter
+![Coverage](https://img.shields.io/badge/Coverage-53.8%25-yellow)
 
 **NOTE** The mayority of the code of this project was written by an LLM.
 
